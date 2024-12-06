@@ -1,10 +1,10 @@
-# Based on P Orishaba proportional hazards NMA script for FE OS
+# P Orishaba & Howard Thom August-2024
 # Adapted to include correlation between STAMPEDE hazard ratios
-# Howard Thom 30-Dec-2023
 
 # Load the R2OpenBUGS package
 library(R2OpenBUGS)
 library(readxl)
+
 #mHSPC_OS_data <- read_excel("mHSPC OS data HT.xlsx")
 
 
