@@ -1,5 +1,4 @@
 # P Orishaba & Howard Thom August-2024
-# Adapted to include correlation between STAMPEDE hazard ratios
 
 
 # Load the R2OpenBUGS package
