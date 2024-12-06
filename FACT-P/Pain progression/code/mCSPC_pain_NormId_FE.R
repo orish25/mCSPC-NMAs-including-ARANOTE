@@ -1,11 +1,10 @@
-# Philip proportional hazards NMA script
-# R2OpenBUGS 
+# P Orishaba & Howard Thom August-2024
 # Fixed effects, Normal likelihood, identity link NMA in R2OpenBUGS
 
 # Load the R2OpenBUGS package
 library(R2OpenBUGS)
 library(readxl)
-#mHSPC_OS_data <- read_excel("mHSPC OS data.xlsx")
+
 
 # Normal likelihood, identity link, fixed effects
 model_normal_identity_fe <- function()
