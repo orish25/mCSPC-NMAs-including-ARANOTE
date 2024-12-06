@@ -1,7 +1,4 @@
 # Based on P Orishaba proportional hazards NMA script for FE OS
-# Adapted to include correlation between STAMPEDE hazard ratios
-# Howard Thom 30-Dec-2023
-
 
 # Load the R2OpenBUGS package
 library(R2OpenBUGS)
