@@ -21,7 +21,7 @@ Load the readxl library in your R script:
 library(readxl)
 
 Import the data from the excel file: Use the read_excel function to read the Excel file. Specify the file path as an argument. e.g., 
-mCSPC_OS_doublet_ITT_base_case <- read_excel("mCSPC OS doublet ITT base case.xlsx")
+mCSPC_OS_doublet_ITT_base_case <- read_excel ("mCSPC OS doublet ITT base case.xlsx")
 
 Running the Model:
 Highlight the contents of the code and run the model.
