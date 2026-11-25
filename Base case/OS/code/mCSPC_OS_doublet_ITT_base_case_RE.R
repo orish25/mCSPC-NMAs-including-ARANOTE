@@ -217,13 +217,13 @@ burn_in <- 10000 * n_chains
 
 # Define the bugs data 
 # also, to get the correct number of dimensions is good to use a "comparator" arm with 0 for the lhr and the se
-ns <- nrow(mCSPC_OS_doublet_ITT_base_case)
-t  <- array(c(mCSPC_OS_doublet_ITT_base_case$t1, mCSPC_OS_doublet_ITT_base_case$t2), dim = c(ns, 2)) 
+ns <- nrow(mCSPC_OS_doublet_ITT_final)
+t  <- array(c(mCSPC_OS_doublet_ITT_final$t1, mCSPC_OS_doublet_ITT_final$t2), dim = c(ns, 2)) 
 nt <- max(t) 
-y  <- array(c(rep(0, ns), mCSPC_OS_doublet_ITT_base_case$y), dim = c(ns, 2))
-se <- array(c(rep(0, ns), mCSPC_OS_doublet_ITT_base_case$se), dim = c(ns, 2))
+y  <- array(c(rep(0, ns), mCSPC_OS_doublet_ITT_final$y), dim = c(ns, 2))
+se <- array(c(rep(0, ns), mCSPC_OS_doublet_ITT_final$se), dim = c(ns, 2))
 
-study_names <- gsub("#", "", mCSPC_OS_doublet_ITT_base_case$`#ID`)
+study_names <- gsub("#", "", mCSPC_OS_doublet_ITT_final$`#ID`)
 rownames(t) <- rownames(y) <- rownames(se) <- study_names
 
 
